@@ -1,203 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Education Website Template</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education Website Template</title>
 
-	<!-- font Awesome CDN link -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
-	<!-- External CSS -->
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="about.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
 
-	<!-- JQuery CDN link -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-</head>
-<body>
-	<!-- Navigation start -->
-	<nav>
-		<img src="img/logo.svg" class="logo" alt="">
+    <!-- JQuery CDN link -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation start -->
+    <nav>
+      <a href="index.html"><img src="img/tirtoadi.png" class="logo" alt="" /></a>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">Profil Desa</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <div class="dropdown">
+            <li>
+              <a href="courses.html" class="">Courses</a>
+              <div class="dropdown-content">
+                <ul>
+                  <li>
+                    <a href="fullstack-developer.html">Fullstack Developer</a>
+                  </li>
+                  <li><a href="mobile-developer.html">Mobile Developer</a></li>
+                  <li>
+                    <a href="nodejs-programming.html">Nodejs Programming</a>
+                  </li>
+                  <li><a href="python-developer.html">Python Developer</a></li>
+                  <li><a href="web-development.html">Web Development</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-		<div class="navigation">
-			<ul>
-				<i id="menu-close" class="fas fa-times"></i>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html" class="active">About Us</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="courses.html">Courses</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+        <img src="img/menu.png" id="menu-btn" alt="" />
+      </div>
+    </nav>
+    <!-- Navigation ends -->
 
-			<img src="img/menu.png" id="menu-btn" alt="">
-		</div>
-	</nav>
-	<!-- Navigation ends -->
+    <!-- Hero section starts from here -->
+    <section id="about-home"></section>
+    <!-- Hero section ends from here -->
 
+    <!-- About section starts from here -->
+    <section id="about-container">
+      <div class="about-img">
+        <img src="img/karyapraxis.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>
+          Welcome to Praxis Academy, Enhance your skills with best online &
+          offline courses!
+        </h2>
+        <p>
+          You can start and finish one of these popular courses in under a day -
+          for free! Check out the list below.. Take the course for free.
+        </p>
 
-	<!-- Hero section starts from here -->
-	<section id="about-home">
-		<h2>
-			About TechEduca/
-		</h2>
-	</section>
-	<!-- Hero section ends from here -->
+        <div class="about-fe">
+          <img src="img/fe1.png" alt="" />
+          <div class="fe-text">
+            <h5>400+ Courses</h5>
+            <p>
+              You can start and finish one of these popular courses in under our
+              site
+            </p>
+          </div>
+        </div>
+        <div class="about-fe">
+          <img src="img/fe2.png" alt="" />
+          <div class="fe-text">
+            <h5>Lifetime Access</h5>
+            <p>
+              You can start and finish one of these popular courses in under our
+              site
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends from here -->
 
+    <!-- Features section starts from here -->
+    <section id="features">
+      <h1>Karya Praxis Academy</h1>
+      <p>Replenish man have thing gathering lights yielding shall you</p>
 
-	<!-- About section starts from here -->
-	<section id="about-container">
-		<div class="about-img">
-			<img src="img/a.png" alt="">
-		</div>
-		<div class="about-text">
-			<h2>
-				Welcome to TechEduca, Enhance your skills with best online courses.
-			</h2>
-			<p>
-				You can start and finish one of these popular courses in under a day - for free! Check out the list below.. Take the course for free.
-			</p>
+      <a href="https://github.com/praxis-academy"
+      target="_blank" style="text-decoration: none">
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fa-brands fa-github fa-flip" style="color: #171515"></i>
+          <h3>Aplikasi</h3>
+          <p>
+            Aplikasi yang telah di luncurkan ke dalam bentuk aplikasi mobile.
+          </p>
+        </div>
 
-			<div class="about-fe">
-				<img src="img/fe1.png" alt="">
-				<div class="fe-text">
-					<h5>400+ Courses</h5>
-					<p>
-						You can start and finish one of these popular courses in under our site
-					</p>
-				</div>
-			</div>
-			<div class="about-fe">
-				<img src="img/fe2.png" alt="">
-				<div class="fe-text">
-					<h5>Lifetime Access</h5>
-					<p>
-						You can start and finish one of these popular courses in under our site
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- About section ends from here -->
+        <a href="https://praxisacademy.netlify.app/"
+        target="_blank" style="text-decoration: none">
+        <div class="fea-box">
+          <i class="fa-brands fa-google fa-spin" style="color: #50c7c7"></i>
+          <h3>Website</h3>
+          <p>Aplikasi yang telah di luncurkan ke dalam bentuk aplikasi Web.
+          </p>
+        </div>
 
+        <a href="https://play.google.com/store/apps/details?id=id.salamdoc"
+        target="_blank" style="text-decoration: none">
+        <div class="fea-box">
+          <i class="fa-brands fa-android fa-bounce" style="color: #a4c639"></i>
+            <h3>Download Aplikasi</h3>
+          <p>
+            Aplikasi yang telah dibuat dapat teman-teman lihat di github Praxis
+            Academy dan playstore.
+          </p>
+        </div>
+      </a>
+      </div>
+    </section>
+    <!-- Features section ends from here -->
 
-	<!-- Features section starts from here -->
-	<section id="features">
-		<h1>Awesome Features</h1>
-		<p>Replenish man have thing gathering lights yielding shall you</p>
+    <!-- Trust section starts from here -->
+    <section id="trust">
+      <h1>Program Praxis Academy</h1>
+      <p>
+        Any fool can write code that a computer can understand. Good programmers
+        write code that humans can understand.
+      </p>
+      <div class="trust-img">
+        <img src="img/html.png" alt="" />
+        <img src="img/css.png" alt="" />
+        <img src="img/js.png" alt="" />
+        <img src="img/reactjs.png" alt="" />
+        <img src="img/python.png" alt="" />
+        <img src="img/java.png" alt="" />
+      </div>
+    </section>
+    <!-- Trust section ends from here -->
 
-		<div class="fea-base">
-			<div class="fea-box">
-				<i class="fas fa-graduation-cap"></i>
-				<h3>Scholorship Facility</h3>
-				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
-				</p>
-			</div>
+    <!-- Footer section starts from here -->
+    <footer>
+      <div class="footer-col">
+        <h3>Praxis Academy</h3>
+        <li>Tentang Kami</li>
+        <li>Bantuan</li>
+        <li>Magang</li>
+        <li>FAQ</li>
+      </div>
 
-			<div class="fea-box">
-				<i class="fa-solid fa-book-bookmark"></i>
-				<h3>Dell Online Course</h3>
-				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
-				</p>
-			</div>
+      <div class="footer-col">
+        <h3>Perusahaan</h3>
+        <li>Pendaftaran</li>
+        <li>Pasang Iklan</li>
+        <li>Kebijakan Privasi</li>
+        <li>Contact Us</li>
+      </div>
 
-			<div class="fea-box">
-				<i class="fas fa-award"></i>
-				<h3>Global Certification</h3>
-				<p>
-					One make creepeth, man bearing theira firmament won't great heaven
-				</p>
-			</div>
-		</div>
-	</section>
-	<!-- Features section ends from here -->
+      <div class="footer-col">
+        <h3>More to Explore</h3>
+        <li>Blog</li>
+        <li>Top Products</li>
+        <li>All careers in Web Development</li>
+      </div>
 
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
 
-	<!-- Trust section starts from here -->
-	<section id="trust">
-		<h1>Trusted By</h1>
-		<p>Replenish man have thing gathering lights yielding shall you</p>
-		<div class="trust-img">
-			<img src="img/trust (1).png" alt="">
-			<img src="img/trust (2).png" alt="">
-			<img src="img/trust (3).png" alt="">
-			<img src="img/trust (4).png" alt="">
-			<img src="img/trust (5).png" alt="">
-			<img src="img/trust (6).png" alt="">
-		</div>
-	</section>
-	<!-- Trust section ends from here -->
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers.</p>
 
+        <div class="subscribe">
+          <input type="email" placeholder="Your email Address" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
 
-	<!-- Footer section starts from here -->
-	<footer>
-		<div class="footer-col">
-			<h3>Top Products</h3>
-			<li>Manage Reputation</li>
-			<li>Power Tools</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
-		</div>
+      <div class="copyright">
+        <p>
+          © 2023 Praxis Academy Teams || All rights reserved.
+          <a href="" target="_blank"></a>
+        </p>
+        <div class="pro-links">
+          <a href="https://web.facebook.com/desatirtoadi.balaidesa/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/kalurahan_tirtoadi/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCm0-mkFow0GsBre-gaU5ofA"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://twitter.com/combineri" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends from here -->
 
-		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Jobs</li>
-			<li>Marketing Service</li>
-			<li>Top Products</li>
-			<li>Manage Reputation</li>
-		</div>
+    <script>
+      // Show menu links on burger click
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
 
-		<div class="footer-col">
-			<h3>Power Tools</h3>
-			<li>Managed Website</li>
-			<li>Manage Reputation</li>
-			<li>Top Products</li>
-			<li>Marketing Service</li>
-		</div>
-
-		<div class="footer-col">
-			<h3>Guides</h3>
-			<li>Research</li>
-			<li>Experts</li>
-			<li>Managed Website</li>
-			<li>Marketing Service</li>
-		</div>
-
-		<div class="footer-col">
-			<h3>Newsletter</h3>
-			<p>You can trust us. we only send promo offers.</p>
-
-			<div class="subscribe">
-				<input type="email" placeholder="Your email Address">
-				<a href="#" class="yellow">SUBSCRIBE</a>
-			</div>
-		</div>
-
-		<div class="copyright">
-			<p>
-				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com" target="_blank">atulcodex</a>
-			</p>
-			<div class="pro-links">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-linkedin-in"></i>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section ends from here -->
-
-	<script>
-		// Show menu links on burger click
-		$('#menu-btn').click(function(){
-			$('nav .navigation ul').addClass('active')
-		});
-
-		// Hide navbar on click function
-		$('#menu-close').click(function(){
-			$('nav .navigation ul').removeClass('active')
-		});
-	</script>
-</body>
+      // Hide navbar on click function
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
 </html>
